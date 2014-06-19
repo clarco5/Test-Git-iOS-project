@@ -21,6 +21,7 @@
 		FABEF43319535FD900DFC228 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABEF41519535FD900DFC228 /* UIKit.framework */; };
 		FABEF43B19535FD900DFC228 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FABEF43919535FD900DFC228 /* InfoPlist.strings */; };
 		FABEF43D19535FD900DFC228 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FABEF43C19535FD900DFC228 /* Git_TestTests.m */; };
+		FABEF4481953634D00DFC228 /* ABTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FABEF4471953634D00DFC228 /* ABTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FABEF43819535FD900DFC228 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		FABEF43A19535FD900DFC228 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FABEF43C19535FD900DFC228 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		FABEF4461953634D00DFC228 /* ABTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTest.h; sourceTree = "<group>"; };
+		FABEF4471953634D00DFC228 /* ABTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				FABEF42019535FD900DFC228 /* ABAppDelegate.h */,
+				FABEF4461953634D00DFC228 /* ABTest.h */,
+				FABEF4471953634D00DFC228 /* ABTest.m */,
 				FABEF42119535FD900DFC228 /* ABAppDelegate.m */,
 				FABEF42319535FD900DFC228 /* Main.storyboard */,
 				FABEF42619535FD900DFC228 /* ABViewController.h */,
@@ -252,6 +257,7 @@
 			files = (
 				FABEF41E19535FD900DFC228 /* main.m in Sources */,
 				FABEF42819535FD900DFC228 /* ABViewController.m in Sources */,
+				FABEF4481953634D00DFC228 /* ABTest.m in Sources */,
 				FABEF42219535FD900DFC228 /* ABAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
